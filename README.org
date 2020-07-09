@@ -70,3 +70,17 @@ go build -o hello
   )
 
 #+end_src
+
+** Testing
+*** Add test for =morestrings=
+
+#+begin_src sh :results org
+cd morestrings
+
+go test
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+?   	github.com/ezchi/go-hello-world	[no test files]
+#+end_src
