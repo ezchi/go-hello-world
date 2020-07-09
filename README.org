@@ -51,3 +51,22 @@ go build -o hello
 #+begin_src org
 .dlrow ,olleH
 #+end_src
+
+** Importing packages from remote modules
+Imports "github.com/google/go-cmp/cmp" and use it in =hello=.
+
+#+begin_src sh :results org
+go build -o hello
+
+./hello
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+.dlrow ,olleH
+  string(
+- 	"Hello World",
++ 	"Hello Go",
+  )
+
+#+end_src
