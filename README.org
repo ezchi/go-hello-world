@@ -1,3 +1,10 @@
 * go-hello-world
 
 This will be my code practice for [[https://golang.org/doc/code.html][How to Write Go Code - The Go Programming Language]].
+
+** Your first program
+Update the module path and create =go.mod=.
+
+#+begin_src sh
+go mod init github.com/ezchi/go-hello-world
+#+end_src
