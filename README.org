@@ -3,8 +3,22 @@
 This will be my code practice for [[https://golang.org/doc/code.html][How to Write Go Code - The Go Programming Language]].
 
 ** Your first program
+*** Initialize go module
 Update the module path and create =go.mod=.
 
 #+begin_src sh
 go mod init github.com/ezchi/go-hello-world
 #+end_src
+
+*** Add hello world source code
+Now it is time to add the =hello.go=.
+
+*** Build and run hello world
+#+begin_src sh :results raw
+go build -o hello
+
+./hello
+#+end_src
+
+#+RESULTS:
+| Hello | world. |
