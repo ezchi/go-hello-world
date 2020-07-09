@@ -14,11 +14,40 @@ go mod init github.com/ezchi/go-hello-world
 Now it is time to add the =hello.go=.
 
 *** Build and run hello world
-#+begin_src sh :results raw
+#+begin_src sh :results outputs org
 go build -o hello
 
 ./hello
 #+end_src
 
 #+RESULTS:
-| Hello | world. |
+#+begin_src org
+Hello, world.
+#+end_src
+
+
+** Importing packages from your module
+*** Create [[file:morestrings/reverse.go][morestrings/reverse.go]]
+
+It can be build with =go build= but will not output anything.
+#+begin_src sh :results org
+cd morestrings
+
+go build
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+#+end_src
+
+*** Use =morestrings= package from =hello=
+#+begin_src sh :results org
+go build -o hello
+
+./hello
+#+end_src
+
+#+RESULTS:
+#+begin_src org
+.dlrow ,olleH
+#+end_src
