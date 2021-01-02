@@ -4,3 +4,4 @@
 !/**/*.go
 !/**/go.mod
 !/**/go.sum
+!/.github/workflows/*.yml
