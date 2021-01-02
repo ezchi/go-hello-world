@@ -82,5 +82,6 @@ go test
 
 #+RESULTS:
 #+begin_src org
-?   	github.com/ezchi/go-hello-world	[no test files]
+PASS
+ok  	github.com/ezchi/go-hello-world/morestrings	0.382s
 #+end_src
