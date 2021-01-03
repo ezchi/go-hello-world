@@ -1,4 +1,4 @@
-[[https://github.com/ezchi/go-hello-world/workflows/Lint%20Code%20Base/badge.svg][https://github.com/marketplace/actions/super-linter]]
+[[https://github.com/ezchi/go-hello-world][https://github.com/ezchi/go-hello-world/workflows/lint/badge.svg?branch=feature/try-out-super-lint-github-action]]
 
 * go-hello-world
 
