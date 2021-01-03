@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fnt.Println("That us start.")
 	fmt.Println(morestrings.ReverseRunes("Hello, world."))
 	fmt.Println(cmp.Diff("Hello World", "Hello Go"))
 }
